@@ -1,0 +1,113 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.read-the-docs {
+  color: #888;
+}
+.App{
+  color: black;
+}
+
+.card{
+  background-color: white;
+  border-radius: 20px;
+  padding: 1em;
+  box-sizing: border-box!important;
+  height: 85vh;
+  width: 27vw;
+  margin-bottom: 0;
+  position: static;
+  font-weight: 400;
+}
+.card:hover .btn{
+  background-color: rgb(31, 12, 182);
+}
+.h6{
+  margin: 0px;
+  font-size: large;
+}
+
+.btn{
+  padding: 0 5px;
+  width: 100%;
+  height: 2em;
+  background-color:#2457d7c1 ;
+  color: #ffffff;
+  height: 3em;
+}
+
+h5{
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+li{
+  padding: 3px 0;
+}
+.card-price{
+  font-size: 30px;
+  margin: 0px;
+}
+.card-container{
+  display: flex;
+  grid-column-gap: 25px;
+  margin: 30px;
+
+}
+
+.text-muted{
+  color:#cac6c6
+}
+.period{
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.card-title{
+  color:#888;
+  font-size: 16px;
+}
+li{
+  list-style-type: none;
+}
+li::before{
+  list-style-type: \2714;
+}
+.tick{
+  margin-left: 0px!important;
+  padding-left: 0px;
+}
